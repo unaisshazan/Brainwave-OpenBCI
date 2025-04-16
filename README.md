@@ -1,4 +1,4 @@
-**Mind-Controlled Tech? My Final-Semester Students Just Made It Happen.
+##Mind-Controlled Tech? My Final-Semester Students Just Made It Happen.
 
 I’m incredibly proud to share the incredible work of my final-semester students from China, who recently completed an advanced internship project 
 under my mentorship—developing a real-time brainwave-controlled system using OpenBCI, Python, Arduino, and Machine Learning.
@@ -7,10 +7,15 @@ Using the Daisy v3 wireless EEG headset, we captured real-time brain activity, w
 
 In one session, we recorded signals from a participant named Andy while he focused on a bottle.
 ➤ Brainwave data was first visualized in real-time frequency graphs using OpenBCI Cyton software
+
 ➤ We then applied Fast Fourier Transform (FFT) to analyze signal patterns more deeply
+
 ➤ The processed data was streamed into Python and visualized using Matplotlib
+
 ➤ Data was stored in a CSV, and Power Spectral Density (PSD) was calculated to identify Andy’s unique alpha and beta ranges
+
 ➤ Based on these ranges, commands were sent from Python to an Arduino via serial communication to control an LED
+
 
 ✅ When focused → LED turned ON
 ❌ When distracted → LED turned OFF
